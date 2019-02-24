@@ -3,7 +3,7 @@
 /**
  * Theme Demo content
  */
-add_filter( 'fw:ext:backups-demo:demos', 'razz_demo_content' );
+//add_filter( 'fw:ext:backups-demo:demos', 'razz_demo_content' );
 function razz_demo_content( $demos ) {
 	$demos_array = array(
 		'blog-demo' => array(
